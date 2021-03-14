@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash">
+
+    <ImageView
+        android:id="@+id/image_splash"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/cubes"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+    <View
+        android:id="@+id/view_splash"
+        app:layout_constraintTop_toBottomOf="@id/image_splash"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:theme="@style/styleLine"
+        android:layout_width="100dp"
+        android:layout_height="0.5dp"/>
+    <TextView
+        android:id="@+id/teks1_splash"
+        app:layout_constraintTop_toBottomOf="@id/view_splash"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"
+        android:text="Number Convert"
+        android:theme="@style/styleColorText"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/teks2_splash"
+        app:layout_constraintTop_toBottomOf="@id/teks1_splash"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="4dp"
+        android:text="Aplikasi Pengoversian Basis Bilangan"
+        android:theme="@style/styleColorText"
+        android:fontFamily="@font/raleway"
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
