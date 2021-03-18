@@ -1,6 +1,4 @@
-A simple application that I worked on to convert decimal base numbers into binary base numbers, octal, and hexadecimal.
-
-As for, some of the features that I made:
+A simple application that I worked on to convert decimal base numbers into binary base numbers, octal, and hexadecimal.As for, some of the features that I made:
 1. Splash Screen
 2. Ligh and Dark Mode
 3. Blank Form Validation
